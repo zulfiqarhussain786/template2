@@ -1,0 +1,262 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #f44336 !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.menu{
+    display: none !important;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+}
+
+nav ol li {
+    padding: 14px 24px;
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    height: 51px;
+}
+
+nav ol li:hover {
+    background-color: white;
+    color: black;
+}
+
+#home {
+    background-color: white;
+    color: black;
+}
+
+#home:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.start-page {
+    margin-top: 50px;
+    background-color: #f44336;
+    height: 71.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.start-page h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    line-height: 1;
+    padding-bottom: 44px;
+}
+
+.template {
+    text-align: center;
+    font-size: 23.5px;
+    letter-spacing: 0.2px;
+    margin-bottom: 44px;
+    /* margin: 34px 0 44px 0; */
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.start-page button {
+    margin-bottom: 2px;
+    padding: 16px 24px 17px 24px;
+    font-size: 18px;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.start-page button:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+    cursor: pointer;
+}
+
+.parent {
+    padding: 64px 16px;
+    max-width: 1012px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent h2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.parent h5 {
+    font-family: "Lato", sans-serif;
+    margin: 10px 0;
+    padding: 32px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.child {
+    width: 66%;
+}
+
+.text {
+    font-family: "Lato", sans-serif;
+    margin: 15px 0;
+    font-weight: 400;
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.pic1 {
+    padding: 61.5px 0 0 69px;
+    width: 34%;
+}
+
+.parent2 {
+    background-color: #f1f1f1;
+}
+
+.parent2 .pic1 {
+    padding: 87px 25px 0 47px;
+    width: 31.7%;
+}
+
+.parent2 .child {
+    padding-left: 16px;
+    width: 68.3%;
+}
+
+.quote {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    margin: auto;
+    padding: 64px 16px;
+    line-height: 1.5;
+}
+
+.quote h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.footer {
+    padding: 80px 0;
+    margin: 2px 0;
+}
+
+.icons {
+    text-align: center;
+    color: #666;
+    font-size: 23px;
+    padding-top: 21px;
+}
+
+.powered {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #a4a4a4;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 52px;
+
+}
+nav ol li .menu{
+    display: none;
+}
+
+.w3 {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:600px) {
+
+    .start-page{
+        height: 91.2vh;
+    }
+    .child{
+        width: 100% !important;
+        margin: auto;
+    }
+    .pic1{
+        width: 81% !important;
+        margin: auto;
+        padding-bottom: 62.8px;
+        padding-top: 62px;
+        
+    }
+    .parent2 .pic1{
+        padding-bottom: 60px;
+        margin: auto;
+    }
+    .parent2 .child{
+        width: 100% !important;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .menu{
+        font-weight: 800;
+        background-color: #f44336;
+        color: white;
+        padding: 14px 24px;
+        text-align: center;
+        font-size: 18px;
+        display: flex !important;
+        justify-content: flex-end;
+    }
+    .menu:hover{
+        background-color: white;
+        color: black;
+    }
+    nav .link{
+        display: none;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .start-page h1{
+        margin: 16px;
+        padding-bottom: 0;
+        line-height: 1.5;
+        padding-top: 22px;
+    }
+    .template{
+        padding-top: 20px;
+    }
+    .start-page button{
+        margin-top: 12px;
+    }
+}
+
